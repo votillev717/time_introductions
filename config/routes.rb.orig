@@ -1,0 +1,8 @@
+Rails.application.routes.draw do
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+<<<<<<< Updated upstream
+=======
+  get 'time/now' => 'time#now'
+  get 'introduce/:name_1/and/:name_2' => 'introductions#introduce'
+>>>>>>> Stashed changes
+end
